@@ -1,0 +1,32 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:id="@+id/aboutLayout">
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:background="@drawable/rk"
+        android:layout_centerInParent="true"
+        android:id="@+id/developerImage"/>
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/developerImage"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:lines="7"
+        android:id="@+id/aboutText"
+        android:textColor="#212121"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This application was developed by P.ROKESH KUMAR as a Project for his Online Android Development Course.
+  The App Name is ECHO. If you have      any quries with the please inform us
+      Email: rokesh1129@gmail.com"/>
+
+    </RelativeLayout>
+</RelativeLayout>
